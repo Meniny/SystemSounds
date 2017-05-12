@@ -1,0 +1,6 @@
+framework module SystemSounds {
+  umbrella header "SystemSounds-umbrella.h"
+
+  export *
+  module * { export * }
+}

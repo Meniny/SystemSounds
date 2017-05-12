@@ -1,0 +1,16 @@
+PODS:
+  - SystemSounds (1.0.0)
+
+DEPENDENCIES:
+  - SystemSounds (from `../`)
+
+EXTERNAL SOURCES:
+  SystemSounds:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SystemSounds: 99ed3e880cd384f0d414ba389e5f79d2964b958f
+
+PODFILE CHECKSUM: c44f858d27013db4c0af6aac0c69d136b820647a
+
+COCOAPODS: 1.2.1
