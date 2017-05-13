@@ -1,6 +1,6 @@
 # SystemSounds
 
-A iOS System Sounds Player Framework.
+An iOS System Sounds Player Framework.
 
 ## Requirements
 
