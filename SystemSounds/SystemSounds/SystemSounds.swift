@@ -125,7 +125,11 @@ import AudioToolbox
             self.play(soundID: soundID, isAlert: isAlert, completion: completion)
         }
     }
-    
+  
+    open class func play(sound: SystemSounds.IDs, isAlert: Bool = false, completion: SystemSounds.CompletionClosure? = nil) {
+        SystemSounds.shared.play(soundID: sound.rawValue, isAlert: isAlert, completion: completion)
+    }
+  
     @objc open class func play(soundID: SystemSoundID, isAlert: Bool = false, completion: SystemSounds.CompletionClosure? = nil) {
         SystemSounds.shared.play(soundID: soundID, isAlert: isAlert, completion: completion)
     }
