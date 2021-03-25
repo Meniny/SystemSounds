@@ -29,7 +29,7 @@ import AudioToolbox
     
     // MARK: - Init
     
-    open static let shared: SystemSounds = SystemSounds()
+    public static let shared: SystemSounds = SystemSounds()
     
     override init() {
         self.bundle = Bundle.main
@@ -49,7 +49,7 @@ import AudioToolbox
             NotificationCenter.default.addObserver(
                 self,
                 selector: sel,
-                name: .UIApplicationDidReceiveMemoryWarning,
+                name: UIApplication.didReceiveMemoryWarningNotification,
                 object: nil
             )
         #endif

@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SystemSounds"
-  s.version          = "1.0.1"
+  s.version          = "1.0.2"
   s.summary          = "An iOS System Sounds Player Framework."
 
   s.description      = <<-DESC
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.9'
 
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.0' }
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
 
   s.source_files = 'SystemSounds/**/*{.swift}', 'SystemSounds/**/*{.h}'
   s.public_header_files = 'SystemSounds/**/*{.h}'
