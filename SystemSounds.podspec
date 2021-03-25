@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SystemSounds"
-  s.version          = "1.0.2"
+  s.version          = "1.2.0"
   s.summary          = "An iOS System Sounds Player Framework."
 
   s.description      = <<-DESC

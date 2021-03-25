@@ -18,7 +18,7 @@
 		5CED4F111EC61D7A00948FC4 /* macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CED4F141EC61D7A00948FC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CED4F191EC61DAB00948FC4 /* SystemSounds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemSounds.swift; sourceTree = "<group>"; };
-		8A716252260C576800D548DB /* SystemSounds.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SystemSounds.podspec; path = ../SystemSounds.podspec; sourceTree = "<group>"; };
+		8A716252260C576800D548DB /* SystemSounds.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SystemSounds.podspec; path = ../SystemSounds.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
