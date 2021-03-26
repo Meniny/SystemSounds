@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5CED4F1A1EC61DAB00948FC4 /* SystemSounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CED4F191EC61DAB00948FC4 /* SystemSounds.swift */; };
+		8A716253260C576800D548DB /* SystemSounds.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 8A716252260C576800D548DB /* SystemSounds.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +18,7 @@
 		5CED4F111EC61D7A00948FC4 /* macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CED4F141EC61D7A00948FC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CED4F191EC61DAB00948FC4 /* SystemSounds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemSounds.swift; sourceTree = "<group>"; };
+		8A716252260C576800D548DB /* SystemSounds.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SystemSounds.podspec; path = ../SystemSounds.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		5CED4EEA1EC61D5200948FC4 = {
 			isa = PBXGroup;
 			children = (
+				8A716252260C576800D548DB /* SystemSounds.podspec */,
 				5CED4EF61EC61D5200948FC4 /* SystemSounds */,
 				5CED4F051EC61D7400948FC4 /* iOS */,
 				5CED4F121EC61D7A00948FC4 /* macOS */,
@@ -164,6 +167,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 5CED4EEA1EC61D5200948FC4;
@@ -182,6 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A716253260C576800D548DB /* SystemSounds.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +417,7 @@
 				5CED4F0B1EC61D7400948FC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CED4F161EC61D7A00948FC4 /* Build configuration list for PBXNativeTarget "macOS" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +426,7 @@
 				5CED4F181EC61D7A00948FC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
